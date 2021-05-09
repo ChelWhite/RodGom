@@ -23,8 +23,15 @@
 }
 
 
-.lightblue{
+.lightblue {
     color: #328ebd ;
+}
+
+
+.borderstyle {
+    border-top: solid !important;
+    border-color: #328ebd !important;
+    border-width: thick !important;
 }
 
 #footer-background {
@@ -34,3 +41,4 @@
 .fa-3x{
     font-size:3em !important;
 }
+
