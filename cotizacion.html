@@ -86,122 +86,72 @@
 
     <!--Navbar end-->
     <div class="container">
+
+
+
         <div class="row">
             <div class="col" style="height: 100px;">
-    
+
             </div>
         </div>
+        <h4>Solicita una cotizacion</h4>
+
         <div class="row">
-            <div class="col-6">
-        <form>
-            <h4>Solicita una cotizacion</h4>
+            <div class="col-sm-12 col-md-6">
+                <form>
+
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Nombre Completo">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Telefono">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputPassword1"
+                            placeholder="Correo Electronico">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Empresa">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje Aqui"
+                            rows="3"></textarea>
+                    </div>
 
 
 
-            <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Nombre Completo">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Telefono">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Correo Electronico">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Empresa">
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje Aqui"
-                    rows="3"></textarea>
-            </div>
-        </div>
-
-        </div>
-            <br>
-            <div class="row">
-
-
-            <fieldset class="form-group">
-                <div class="row">
-               <legend class="col-form-label col pt-0">Seleciona el servicio que necesites:</legend>
-               </div>
-                <div class="row">
-        
-                    <div class="col-sm-10">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
-                                value="option1" checked>
-                            <label class="form-check-label" for="gridRadios1">
-                                Maquiladora
-                            </label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                value="option2">
-                            <label class="form-check-label" for="gridRadios2">
-                                Aplicacion de Soldadura
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                value="option2">
-                            <label class="form-check-label" for="gridRadios2">
-                                Servicios Industriales
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                value="option2">
-                            <label class="form-check-label" for="gridRadios2">
-                                Automatizacion y Control
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                value="option2">
-                            <label class="form-check-label" for="gridRadios2">
-                                Senalizacion Industrial
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                value="option2">
-                            <label class="form-check-label" for="gridRadios2">
-                                Renta de Maquinaria
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                value="option2">
-                            <label class="form-check-label" for="gridRadios2">
-                                Venta y Distribucion de Materiales
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                value="option2">
-                            <label class="form-check-label" for="gridRadios2">
-                                Gravados y Fabriaciones Industriales en Acrilico
-                            </label>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="inputGroupFile01"
+                                aria-describedby="inputGroupFileAddon01">
+                            <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
                         </div>
                     </div>
-                </div>
-            </fieldset>
+                </form>
+            </div>
+
+
+
+
+
+
+            
         </div>
-        <div class="form-check">
+        <div class="form-check pt-4 pb-4">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Acepto que he leído el aviso de privacidad y estoy
                 de acuerdo con sus términos.</label>
             <br> <small>Consulte aquí el aviso de privacidad</small>
         </div>
-            <div class="form-group row">
-                <div class="col-sm-10">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
-        
-        </form>
+        </div>
     </div>
     <!--Form-->
 
